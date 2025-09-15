@@ -1,4 +1,4 @@
-# WARNING: This tune works ONLY with DSHOT 600 or DSHOT 300. Using anything else is extremely unsafe.
+#$ WARNING: This tune works ONLY with DSHOT 600 or DSHOT 300. Using anything else is extremely unsafe.
 #$ TITLE: Basher X Frame
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
@@ -41,7 +41,8 @@ set simplified_pitch_pi_gain = 105
 set simplified_dterm_filter = OFF
 set simplified_dterm_filter_multiplier = 105
 
-# Master filter settings (optional, can be grouped)
+#$ OPTION BEGIN (CHECKED): Filters recommended for clean build
+# Master filter settings
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 1000
 set dyn_notch_count = 1
@@ -54,3 +55,4 @@ set simplified_gyro_filter_multiplier = 110
 set rpm_filter_weights = 100,20,100
 set rpm_filter_min_hz = 115
 set rpm_filter_fade_range_hz = 75
+#$ OPTION END
