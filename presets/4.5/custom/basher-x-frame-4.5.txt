@@ -5,7 +5,10 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: freestyle, basher, x-frame
 #$ AUTHOR: Funkolius
-#$ DESCRIPTION: Custom tune for Basher X Frame. Frame can be found on Thingiverse: https://www.thingiverse.com/thing:7113332. Please be advised that Bidirectional DShot will be enabled with this preset; ensure your ESC is a 32BIT ESC or an 8BIT ESC with Blue Jay firmware installed.
+#$ DESCRIPTION: Custom tune for Basher X Frame. Frame can be found on Thingiverse: https://www.thingiverse.com/thing:7113332.
+#$ DESCRIPTION: ***************
+#$ DESCRIPTION: Please be advised that Bidirectional DShot will be enabled with this preset; ensure your ESC is a 32BIT ESC or an 8BIT ESC with Blue Jay firmware installed.
+#$ DESCRIPTION: ***************
 
 #$ FORCE_OPTIONS_REVIEW: true
 
