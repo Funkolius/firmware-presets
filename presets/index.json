@@ -3,9 +3,10 @@
   "presets": [
     {
       "name": "Funkolius - Basher X Frame",
-      "file": "../Funkolius - Basher X Frame.txt",
+      "file": "Funkolius - Basher X Frame.txt",
       "author": "Funkolius",
-      "branch": "master"
+      "firmware_version": "4.5",
+      "description": "Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit."
     }
   ]
 }
