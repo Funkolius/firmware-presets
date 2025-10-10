@@ -1,10 +1,13 @@
-[
-  {
-    "name": "Funkolius - Basher X Frame",
-    "path": "Funkolius - Basher X Frame.txt",
-    "description": "Basher X Frame preset for Betaflight 4.5",
-    "author": "Funkolius",
-    "firmware_version": "4.5",
-    "category": "TUNE"
-  }
-]
+{
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "Funkolius - Basher X Frame",
+      "path": "Funkolius - Basher X Frame.txt",
+      "description": "Basher X Frame preset for Betaflight 4.5",
+      "author": "Funkolius",
+      "firmware_version": "4.5",
+      "category": "TUNE"
+    }
+  ]
+}
