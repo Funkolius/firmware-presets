@@ -1,0 +1,10 @@
+{
+  "presets": [
+    {
+      "name": "Funkolius - Basher X Frame",
+      "file": "../Funkolius - Basher X Frame.txt",
+      "author": "Funkolius",
+      "branch": "master"
+    }
+  ]
+}
