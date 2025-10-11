@@ -23,6 +23,9 @@ set p_yaw = 81
 set i_yaw = 144
 set f_yaw = 172
 
+# -- Apply explicit tune --
+simplified_tuning apply
+
 # -- Filters --
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
 set simplified_gyro_filter = OFF
