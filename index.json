@@ -7421,7 +7421,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "e793c5d33a35a3b99c364c9599beea73122df16bfbd91b32230f3516b1f37abd",
+      "hash": "a9a5d42e56351b53d19e53edd8527be7dfd52f7aac7f62c067dc9fc17307e1dc",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "4.5"
@@ -7435,7 +7435,7 @@
         "funky"
       ],
       "author": "Funkolius",
-      "force_options_review": true,
+      "force_options_review": false,
       "priority": 1000000000000
     },
     {
