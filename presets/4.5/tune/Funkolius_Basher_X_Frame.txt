@@ -5,17 +5,16 @@
 #$ KEYWORDS: freestyle, basher, x-frame, funky
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
-#$ DESCRIPTION: Funkolius Basher X frame preset for Betaflight 4.5. Custom tuned for punch, precision, and pop. Frame: https://www.thingiverse.com/thing:7113332.
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
-#$ DESCRIPTION: Need to tweak the numbers? Use the [Funkdafied Basher X PID Calculator](https://homesliced3d.com/funkdafied-basher-x/).
+#$ DESCRIPTION: PID calculator and supporting material: https://homesliced3d.com/funkdafied-basher-x/
 #$ FORCE_OPTIONS_REVIEW: true
 
 #$ INCLUDE: presets/4.5/tune/defaults.txt
 
-# -- Prepare simplified tune --
+# -- Establish simplified baseline --
 simplified_tuning apply
 
-# -- PID TUNING --
+# -- PID tuning --
 set iterm_rotation = ON
 set iterm_relax_cutoff = 10
 set p_pitch = 88
