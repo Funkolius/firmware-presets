@@ -9,6 +9,11 @@
 #$ DESCRIPTION: PID calculator and supporting material: https://homesliced3d.com/funkdafied-basher-x/
 #$ FORCE_OPTIONS_REVIEW: false
 
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+
+# Use PID profile 0 unless the user changes after applying.
+profile 0
+
 # -- PID tuning --
 set iterm_rotation = ON
 set iterm_relax_cutoff = 10
@@ -25,7 +30,6 @@ set i_yaw = 144
 set f_yaw = 172
 
 # -- Filters --
-#$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
 set simplified_gyro_filter = OFF
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 1000
@@ -39,12 +43,10 @@ set rpm_filter_weights = 100,20,100
 set rpm_filter_min_hz = 115
 set rpm_filter_fade_range_hz = 75
 
-# Profile 0 (DTerm Filters)
 set dterm_lpf1_type = BIQUAD
 set dterm_lpf1_static_hz = 78
 set dterm_lpf1_dyn_min_hz = 80
 set dterm_lpf2_static_hz = 0
-#$ OPTION END
 
 # -- Other Requirements --
 set dshot_bidir = ON
