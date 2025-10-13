@@ -28,6 +28,9 @@ set f_roll = 172
 set p_yaw = 81
 set i_yaw = 144
 set f_yaw = 172
+set d_max_roll = 64
+set d_max_pitch = 73
+set d_max_yaw = 0
 
 # -- Filters --
 set simplified_gyro_filter = OFF
