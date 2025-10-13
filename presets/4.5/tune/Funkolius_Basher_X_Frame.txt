@@ -44,6 +44,7 @@ set d_max_pitch = 73
 set d_max_yaw = 0
 
 # -- Filters --
+#$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
 set simplified_gyro_filter = OFF
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 1000
@@ -61,6 +62,7 @@ set dterm_lpf1_type = BIQUAD
 set dterm_lpf1_static_hz = 78
 set dterm_lpf1_dyn_min_hz = 80
 set dterm_lpf2_static_hz = 0
+#$ OPTION END
 
 # -- Other Requirements --
 set dshot_bidir = ON
