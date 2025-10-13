@@ -14,6 +14,17 @@
 # Use PID profile 0 unless the user changes after applying.
 profile 0
 
+# -- Simplified tuning baseline --
+set simplified_master_multiplier = 180
+set simplified_d_gain = 120
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 80
+set simplified_pitch_pi_gain = 105
+set simplified_dterm_filter = OFF
+set simplified_dterm_filter_multiplier = 10
+
+simplified_tuning apply
+
 # -- PID tuning --
 set iterm_rotation = ON
 set iterm_relax_cutoff = 10
