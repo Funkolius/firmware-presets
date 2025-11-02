@@ -391,6 +391,7 @@
       "freetyle",
       "FreshBread",
       "frsky",
+      "funky",
       "fx2",
       "Garban",
       "geprc",
@@ -5797,7 +5798,7 @@
     },
     {
       "fullPath": "presets/4.5/custom/basher-x-frame-4.5.txt",
-      "hash": "45de42839d4c74938d595cbf9ef1665ae21eca459ff18b94415d06d862cafd0f",
+      "hash": "dee3760e580e66c1110d46994dd07452dafbf6fe22b6d2746b11bf338c830b49",
       "title": "Basher X Frame",
       "firmware_version": [
         "4.5"
@@ -7434,6 +7435,25 @@
         "5\""
       ],
       "author": "Ivan Efimov (Limon)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/Funkolius_Basher_X_Frame.txt",
+      "hash": "0810fc9a9e8b7ea0b6b368713312ef0a8476977e3c9662447c07a5f93bb7ad6a",
+      "title": "Funkolius - Basher X Frame",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "basher",
+        "x-frame",
+        "funky"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
       "priority": 1000000000000
     },
     {
