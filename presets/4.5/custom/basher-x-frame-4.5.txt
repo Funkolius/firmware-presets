@@ -14,18 +14,23 @@
 
 set iterm_rotation = ON
 set iterm_relax_cutoff = 10
-set p_pitch = 88
-set i_pitch = 158
-set d_pitch = 73
-set f_pitch = 188
-set p_roll = 81
-set i_roll = 144
-set d_roll = 64
-set f_roll = 172
-set p_yaw = 81
-set i_yaw = 144
-set f_yaw = 172
-set simplified_master_multiplier = 180
+set p_pitch = 81
+set i_pitch = 145
+set d_pitch = 67
+set f_pitch = 173
+set p_roll = 74
+set i_roll = 132
+set d_roll = 59
+set f_roll = 158
+set p_yaw = 74
+set i_yaw = 132
+set f_yaw = 158
+set angle_p_gain = 40
+set d_min_roll = 59
+set d_min_pitch = 67
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 8
+set simplified_master_multiplier = 165
 set dshot_bidir = ON
 
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
