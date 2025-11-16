@@ -5797,24 +5797,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/custom/basher-x-frame-4.5.txt",
-      "hash": "dee3760e580e66c1110d46994dd07452dafbf6fe22b6d2746b11bf338c830b49",
-      "title": "Basher X Frame",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "freestyle",
-        "basher",
-        "x-frame"
-      ],
-      "author": "Funkolius",
-      "force_options_review": true,
-      "priority": 1000000000000
-    },
-    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_3.5_filters.txt",
       "hash": "207b31c1473442c3585da774337eb8b7417d5300fc2229750561b998ac503040",
       "title": "AOS 3.5 Filters",
