@@ -39,9 +39,6 @@ set f_roll = 172
 set p_yaw = 81
 set i_yaw = 144
 set f_yaw = 172
-set dmax_roll = 64
-set dmax_pitch = 73
-set dmax_yaw = 0
 
 # -- Filters --
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
