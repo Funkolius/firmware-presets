@@ -15,7 +15,7 @@
 profile 0
 
 # -- Simplified tuning baseline --
-set simplified_master_multiplier = 180
+set simplified_master_multiplier = 165
 set simplified_d_gain = 120
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 80
@@ -28,17 +28,17 @@ simplified_tuning apply
 # -- PID tuning --
 set iterm_rotation = ON
 set iterm_relax_cutoff = 10
-set p_pitch = 88
-set i_pitch = 158
-set d_pitch = 73
-set f_pitch = 188
-set p_roll = 81
-set i_roll = 144
-set d_roll = 64
-set f_roll = 172
-set p_yaw = 81
-set i_yaw = 144
-set f_yaw = 172
+set p_pitch = 81
+set i_pitch = 152
+set d_pitch = 67
+set f_pitch = 173
+set p_roll = 74
+set i_roll = 138
+set d_roll = 59
+set f_roll = 158
+set p_yaw = 74
+set i_yaw = 138
+set f_yaw = 158
 
 # -- Filters --
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
