@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: freestyle, basher, x-frame, funky
+#$ KEYWORDS: freestyle, basher, x-frame, funky, Funkolius
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
@@ -16,6 +16,7 @@ profile 0
 
 # -- Simplified tuning baseline --
 set simplified_master_multiplier = 165
+set simplified_i_gain = 105
 set simplified_d_gain = 120
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 80
