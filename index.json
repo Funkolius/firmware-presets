@@ -134,6 +134,7 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "2025.12",
       "3.5",
       "4.2",
       "4.3",
@@ -391,6 +392,7 @@
       "freetyle",
       "FreshBread",
       "frsky",
+      "Funkolius",
       "funky",
       "fx2",
       "Garban",
@@ -573,7 +575,7 @@
       "trainer",
       "tramp",
       "transmitter",
-      "Tune",
+      "tune",
       "twig",
       "tx1600",
       "tx5m.1",
@@ -620,6 +622,46 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2025.12/tune/defaults.txt",
+      "hash": "84955a85abde64ab59e3f269fab5d960c5ae981951f409c5330290926df9d2bb",
+      "title": "Betaflight 2025.12 TUNE defaults",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/tune/Funkolius_Basher_X_Frame.txt",
+      "hash": "9ba783e8c08ae074d5dcef099418b8c2621f018d93c7c3386a912a09f4e1d9f6",
+      "title": "Funkolius - Basher X Frame",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "basher",
+        "x-frame",
+        "funky",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
@@ -7421,7 +7463,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "0810fc9a9e8b7ea0b6b368713312ef0a8476977e3c9662447c07a5f93bb7ad6a",
+      "hash": "208fefeb04a45e9150f1db3f58742d39a3540954523cda2fe93c91d36e41e59b",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "4.5"
@@ -7432,7 +7474,8 @@
         "freestyle",
         "basher",
         "x-frame",
-        "funky"
+        "funky",
+        "Funkolius"
       ],
       "author": "Funkolius",
       "force_options_review": false,
