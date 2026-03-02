@@ -1,0 +1,78 @@
+#$ TITLE: Funkolius_Tune - The Omerta Frame
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: freestyle, omerta, quad mafia, frame, funky, Funkolius_Tune
+#$ AUTHOR: Funkolius_Tune
+#$ PARSER: MARKED
+#$ DESCRIPTION: Tune for Quad Mafia's The Omerta frame by Funkolius_Tune.
+#$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
+#$ FORCE_OPTIONS_REVIEW: false
+
+#$ INCLUDE: presets/4.4/tune/defaults.txt
+
+# Use PID profile 0 unless the user changes after applying.
+profile 0
+
+# -- Simplified tuning baseline --
+set simplified_master_multiplier = 135
+set simplified_i_gain = 105
+set simplified_d_gain = 165
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 60
+set simplified_pi_gain = 155
+set simplified_pitch_pi_gain = 105
+set simplified_dterm_filter = OFF
+set simplified_dterm_filter_multiplier = 10
+
+simplified_tuning apply
+
+# -- PID tuning --
+set iterm_rotation = ON
+set iterm_relax_cutoff = 10
+set p_pitch = 98
+set i_pitch = 175
+set d_pitch = 75
+set f_pitch = 101
+set p_roll = 94
+set i_roll = 167
+set d_roll = 66
+set f_roll = 97
+set p_yaw = 94
+set i_yaw = 167
+set f_yaw = 97
+set tpa_rate = 70
+
+# -- Filters --
+#$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
+set simplified_gyro_filter = OFF
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 750
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+
+set dyn_notch_count = 1
+set dyn_notch_q = 700
+set dyn_notch_min_hz = 115
+
+set rpm_filter_weights = 100,20,100
+set rpm_filter_min_hz = 115
+set rpm_filter_fade_range_hz = 75
+
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf1_static_hz = 78
+set dterm_lpf1_dyn_min_hz = 80
+set dterm_lpf1_dyn_max_hz = 140
+set dterm_lpf2_static_hz = 0
+#$ OPTION END
+
+# -- Launch control (optional) --
+#$ OPTION BEGIN (UNCHECKED): LAUNCH CONTROL (PITCHONLY)
+set launch_control_mode = PITCHONLY
+set launch_trigger_throttle_percent = 35
+set launch_angle_limit = 65
+set launch_control_gain = 100
+#$ OPTION END
+
+# -- Other Requirements --
+set dshot_bidir = ON

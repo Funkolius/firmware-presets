@@ -177,6 +177,7 @@
       "FPV_Cam",
       "FPVian",
       "Funkolius",
+      "Funkolius_Tune",
       "Garban",
       "Grey pang",
       "IllusionFpv",
@@ -384,6 +385,7 @@
       "FPVCycle",
       "FPVCycle TP3",
       "fpvian",
+      "frame",
       "freedom",
       "freedom spec",
       "FreedomSpec",
@@ -393,6 +395,7 @@
       "FreshBread",
       "frsky",
       "Funkolius",
+      "Funkolius_Tune",
       "funky",
       "fx2",
       "Garban",
@@ -474,6 +477,7 @@
       "normal",
       "O3",
       "O3 air unit",
+      "omerta",
       "Omni",
       "OpenRacer",
       "OpenVTx",
@@ -488,6 +492,7 @@
       "pro32",
       "profile",
       "Pure Race",
+      "quad mafia",
       "quaddiction",
       "quick",
       "R9",
@@ -659,6 +664,27 @@
         "Funkolius"
       ],
       "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/Funkolius_Tune_The_Omerta_Frame.txt",
+      "hash": "47917b43df2b44bfe940374579db643291e090500b4584ffa557ac6d9ef890a8",
+      "title": "Funkolius_Tune - The Omerta Frame",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "omerta",
+        "quad mafia",
+        "frame",
+        "funky",
+        "Funkolius_Tune"
+      ],
+      "author": "Funkolius_Tune",
       "force_options_review": false,
       "priority": 1000000000000
     },
@@ -5082,6 +5108,27 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/tune/Funkolius_Tune_The_Omerta_Frame.txt",
+      "hash": "79bae41caf2a42c910845309cc993ae666212f95014d66393a7cfdaa9868d2b2",
+      "title": "Funkolius_Tune - The Omerta Frame",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "omerta",
+        "quad mafia",
+        "frame",
+        "funky",
+        "Funkolius_Tune"
+      ],
+      "author": "Funkolius_Tune",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/karate/karate_brushless_whoop.txt",
       "hash": "107b213e96977c35f94618c6228c7989db84d19131ff3e0719d18577832b26e5",
       "title": "Karate brushless whoop",
@@ -7478,6 +7525,27 @@
         "Funkolius"
       ],
       "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/Funkolius_Tune_The_Omerta_Frame.txt",
+      "hash": "63282d8351274ae6293eee2895ecfcbba37af3db529535eb4722af8e125cb096",
+      "title": "Funkolius_Tune - The Omerta Frame",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "omerta",
+        "quad mafia",
+        "frame",
+        "funky",
+        "Funkolius_Tune"
+      ],
+      "author": "Funkolius_Tune",
       "force_options_review": false,
       "priority": 1000000000000
     },
