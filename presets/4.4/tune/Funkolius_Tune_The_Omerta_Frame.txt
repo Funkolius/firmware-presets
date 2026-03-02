@@ -1,11 +1,11 @@
-#$ TITLE: Funkolius_Tune - The Omerta Frame
+#$ TITLE: Funkolius - The Omerta Frame
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: freestyle, omerta, quad mafia, frame, funky, Funkolius_Tune
-#$ AUTHOR: Funkolius_Tune
+#$ KEYWORDS: freestyle, omerta, quad mafia, frame, funky, Funkolius
+#$ AUTHOR: Funkolius
 #$ PARSER: MARKED
-#$ DESCRIPTION: Tune for Quad Mafia's The Omerta frame by Funkolius_Tune.
+#$ DESCRIPTION: Tune for Quad Mafia's The Omerta frame by Funkolius.
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ FORCE_OPTIONS_REVIEW: false
 
