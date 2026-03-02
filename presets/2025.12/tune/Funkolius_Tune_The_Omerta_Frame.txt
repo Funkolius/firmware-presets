@@ -16,7 +16,7 @@ profile 0
 
 # -- Simplified tuning baseline --
 set simplified_master_multiplier = 135
-set simplified_i_gain = 105
+set simplified_i_gain = 95
 set simplified_d_gain = 165
 set simplified_d_max_gain = 0
 set simplified_feedforward_gain = 60
@@ -31,15 +31,15 @@ simplified_tuning apply
 set iterm_rotation = ON
 set iterm_relax_cutoff = 10
 set p_pitch = 98
-set i_pitch = 175
+set i_pitch = 166
 set d_pitch = 75
 set f_pitch = 101
 set p_roll = 94
-set i_roll = 167
+set i_roll = 159
 set d_roll = 66
 set f_roll = 97
 set p_yaw = 94
-set i_yaw = 167
+set i_yaw = 159
 set f_yaw = 97
 set tpa_rate = 70
 
