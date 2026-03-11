@@ -56,24 +56,3 @@ set dyn_notch_count = 1
 set dyn_notch_q = 1000
 set dyn_notch_min_hz = 115
 #$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): FILTERS FOR NOISIER BUILD
-set simplified_dterm_filter = OFF
-set dterm_lpf1_type = BIQUAD
-set dterm_lpf1_dyn_min_hz = 80
-set dterm_lpf1_dyn_max_hz = 140
-set dterm_lpf2_static_hz = 0
-
-set rpm_filter_weights = 100,20,100
-set rpm_filter_min_hz = 115
-set rpm_filter_fade_range_hz = 75
-
-set gyro_lpf1_static_hz = 0
-set gyro_lpf2_static_hz = 750
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf1_dyn_max_hz = 0
-
-set dyn_notch_count = 1
-set dyn_notch_q = 700
-set dyn_notch_min_hz = 115
-#$ OPTION END

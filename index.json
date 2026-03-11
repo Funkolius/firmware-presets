@@ -254,6 +254,7 @@
       "4in",
       "4in1",
       "4S",
+      "4sx",
       "5",
       "5 In",
       "5 Inch",
@@ -451,6 +452,7 @@
       "MM",
       "mode",
       "modes",
+      "motus",
       "mountain surfing",
       "mouse fpv",
       "mr nice",
@@ -647,7 +649,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "9ba783e8c08ae074d5dcef099418b8c2621f018d93c7c3386a912a09f4e1d9f6",
+      "hash": "ead1d5397537ab58f75da6a3552536cc385f18d0d8f7d07574d9d49171ca8622",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "2025.12"
@@ -666,8 +668,30 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/2025.12/tune/Funkolius_MOTUS_4SX_Frame.txt",
+      "hash": "a6fcdd022c12b50b88d005a3b343a2f09110bfa5af3a51dcdde3c3cc2e16d7ba",
+      "title": "Funkolius - MOTUS 4SX Frame",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "motus",
+        "4sx",
+        "frame",
+        "funky",
+        "Funkolius",
+        "4 inch"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/2025.12/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "33f14b6d8f85336b34b89a42599137bd3f61966bae0fc24053538b818be420f5",
+      "hash": "405885ba52eea3158e1fb9c82b5913d026a713b444e237436191b95f4d27bb43",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "2025.12"
@@ -5107,7 +5131,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "ba85b0cb2122736e00dc4c6205ab5154284e8a15f4189064759ad1d7a6a79068",
+      "hash": "e3cb3c3a9cedfaa851354c217451236072a66f21357f93d37101f73223b5b476",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "4.4"
@@ -7508,7 +7532,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "208fefeb04a45e9150f1db3f58742d39a3540954523cda2fe93c91d36e41e59b",
+      "hash": "17323a7fbc1dd7ff76369f3807964dac2928aad80646cad2e288b8937cb8b0d0",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "4.5"
@@ -7527,8 +7551,29 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/Funkolius_MOTUS_4SX_Frame.txt",
+      "hash": "2a60ff252b4de8869b934e5721cc0c2acb56ab701d667b062e0da114627b9046",
+      "title": "Funkolius - MOTUS 4SX Frame",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "motus",
+        "4sx",
+        "frame",
+        "funky",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "8d66906253da98b737ae3ad339fb12e9bc31855f2480e96d3de7f9e9dbf335b3",
+      "hash": "8d301c3cdbcd239cd671d84e05f778be627a588aa4a74e022c8dff6ae9604cbe",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "4.5"
