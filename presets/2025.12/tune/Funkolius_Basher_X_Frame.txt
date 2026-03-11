@@ -62,5 +62,13 @@ set dterm_lpf1_dyn_min_hz = 80
 set dterm_lpf2_static_hz = 0
 #$ OPTION END
 
+# -- Launch control (optional) --
+#$ OPTION BEGIN (UNCHECKED): LAUNCH CONTROL (PITCHONLY)
+set launch_control_mode = PITCHONLY
+set launch_trigger_throttle_percent = 35
+set launch_angle_limit = 65
+set launch_control_gain = 100
+#$ OPTION END
+
 # -- Other Requirements --
 set dshot_bidir = ON

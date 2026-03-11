@@ -6,7 +6,7 @@
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
 #$ DESCRIPTION: Tune for MOTUS 4SX by Funkolius Productions (4-inch prop, 3-inch pitch, 500g AUW, 6S).
-#$ DESCRIPTION: Bidirectional DShot is required. BLHeli_S ESCs should be configured for bidirectional DShot.
+#$ DESCRIPTION: Bidirectional DShot is required. BlueJay firmware should be installed for bidirectional DShot.
 #$ FORCE_OPTIONS_REVIEW: false
 
 #$ INCLUDE: presets/4.5/tune/defaults.txt
@@ -38,15 +38,42 @@ set simplified_pitch_pi_gain = 125
 set dshot_bidir = ON
 
 # -- Filters --
+#$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
 set simplified_dterm_filter = OFF
 set dterm_lpf1_dyn_min_hz = 85
 set dterm_lpf1_type = BIQUAD
 set dterm_lpf2_static_hz = 0
+
 set rpm_filter_weights = 100,50,50
 set rpm_filter_min_hz = 115
+
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 1000
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+
 set dyn_notch_count = 1
 set dyn_notch_q = 1000
 set dyn_notch_min_hz = 115
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): FILTERS FOR NOISIER BUILD
+set simplified_dterm_filter = OFF
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf1_dyn_min_hz = 80
+set dterm_lpf1_dyn_max_hz = 140
+set dterm_lpf2_static_hz = 0
+
+set rpm_filter_weights = 100,20,100
+set rpm_filter_min_hz = 115
+set rpm_filter_fade_range_hz = 75
+
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 750
 set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+
+set dyn_notch_count = 1
+set dyn_notch_q = 700
+set dyn_notch_min_hz = 115
+#$ OPTION END
