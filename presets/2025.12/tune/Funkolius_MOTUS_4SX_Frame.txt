@@ -28,31 +28,23 @@ set f_roll = 97
 set p_yaw = 60
 set i_yaw = 108
 set f_yaw = 97
-set angle_p_gain = 40
-set angle_limit = 55
 set d_max_roll = 42
 set d_max_pitch = 60
-set simplified_master_multiplier = 135
-set simplified_pitch_d_gain = 125
-set simplified_pitch_pi_gain = 125
+
 set dshot_bidir = ON
 
 # -- Filters --
-#$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
-set simplified_dterm_filter = OFF
-set dterm_lpf1_dyn_min_hz = 85
-set dterm_lpf1_type = BIQUAD
-set dterm_lpf2_static_hz = 0
-
-set rpm_filter_weights = 100,50,50
-set rpm_filter_min_hz = 115
-
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 1000
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf1_dyn_max_hz = 0
-
 set dyn_notch_count = 1
 set dyn_notch_q = 1000
 set dyn_notch_min_hz = 115
-#$ OPTION END
+set gyro_lpf1_dyn_min_hz = 0
+
+set rpm_filter_weights = 100,50,50
+set rpm_filter_min_hz = 115
+set simplified_gyro_filter = OFF
+
+set dterm_lpf1_dyn_min_hz = 85
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf2_static_hz = 0
