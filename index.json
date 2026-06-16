@@ -163,7 +163,6 @@
       "benlumley",
       "bensonk",
       "Betaflight",
-      "Betaflight / Funkolius",
       "BMSThomas",
       "Botgrinder",
       "Chris Rosser",
@@ -629,24 +628,6 @@
   },
   "presets": [
     {
-      "fullPath": "presets/2025.12/filters/defaults.txt",
-      "hash": "3090af35699084dabb0f682c9a0d59b21fb194d7838155a3db0ab79a034da69f",
-      "title": "Default 2025.12 Filter settings",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "defaults",
-        "filter",
-        "filters",
-        "reset"
-      ],
-      "author": "Betaflight / Funkolius",
-      "priority": 100
-    },
-    {
       "fullPath": "presets/2025.12/tune/defaults.txt",
       "hash": "84955a85abde64ab59e3f269fab5d960c5ae981951f409c5330290926df9d2bb",
       "title": "Betaflight 2025.12 TUNE defaults",
@@ -668,7 +649,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "de7648d998c6312990d72dd24f9f7c1ae1058093af865df447e5cc4f0fe8f114",
+      "hash": "e305946391bee32eb1aa03c3b1475a10979bc0e9a6087ae7d242dafa01599436",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "2025.12"
@@ -688,7 +669,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_MOTUS_4SX_Frame.txt",
-      "hash": "abed155c4787cc6dca9b024fc1c8f362d577bb7d072d96aa7024a3d470686f2a",
+      "hash": "af5ee112364562ec725bf0179c13d3421476bab224661515b1ab14d0b404d3d1",
       "title": "Funkolius - MOTUS 4SX Frame",
       "firmware_version": [
         "2025.12"
@@ -710,7 +691,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "eec8c91ba4852e4a5a288bef1237a904897e3ec112c5b7ca69f93b7900f95779",
+      "hash": "6455f41764368ace5acad8753ab7b2b3c78d3002e3c6ee89a2ec5ec4f4085a1d",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "2025.12"
