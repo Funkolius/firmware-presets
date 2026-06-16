@@ -10,6 +10,7 @@
 #$ FORCE_OPTIONS_REVIEW: false
 
 #$ INCLUDE: presets/2025.12/tune/defaults.txt
+#$ INCLUDE: presets/2025.12/filters/defaults.txt
 
 # Use PID profile 0 unless the user changes after applying.
 profile 0
