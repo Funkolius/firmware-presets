@@ -29,8 +29,8 @@ set f_roll = 97
 set p_yaw = 60
 set i_yaw = 108
 set f_yaw = 97
-set d_max_roll = 42
-set d_max_pitch = 60
+set d_min_roll = 42
+set d_min_pitch = 60
 
 set simplified_master_multiplier = 135
 set simplified_d_gain = 105

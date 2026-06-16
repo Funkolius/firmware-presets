@@ -5131,7 +5131,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "4090d126d94888a2df53a165b247c2eaf3e224e244f59d0a02013dc2aeaba359",
+      "hash": "f84fc5278bd9ce59a2fafaf044e56b5285bda4c3c8bc5cff4e1b05752c3c5d95",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "4.4"
@@ -7552,7 +7552,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_MOTUS_4SX_Frame.txt",
-      "hash": "c0cdf28e4232fe0013b679289ca718e1e2ec5b946ab7bcf4caeeb9b6cdb81a1a",
+      "hash": "d34622b9016e13116ba1e1cbe3e18f49f3e5cbe8062c73269dfb155586f49fdc",
       "title": "Funkolius - MOTUS 4SX Frame",
       "firmware_version": [
         "4.5"
