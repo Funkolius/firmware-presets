@@ -223,6 +223,7 @@
       "166Hz",
       "1ms",
       "1S",
+      "2 inch",
       "2.5in",
       "2.5W",
       "20",
@@ -419,6 +420,7 @@
       "IllusionFpv",
       "immersion",
       "immersionRC",
+      "impetus",
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
@@ -448,6 +450,7 @@
       "mck",
       "meteor",
       "MGP",
+      "micro",
       "MinChan",
       "MM",
       "mode",
@@ -660,6 +663,28 @@
         "freestyle",
         "basher",
         "x-frame",
+        "funky",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/Funkolius_Impetus_Frame.txt",
+      "hash": "6c878da7e886c57825b93620083856c4cd4b95860f04f7524e24009ccca57c23",
+      "title": "Funkolius - Impetus Frame",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "impetus",
+        "micro",
+        "2 inch",
+        "frame",
         "funky",
         "Funkolius"
       ],
@@ -7543,6 +7568,28 @@
         "freestyle",
         "basher",
         "x-frame",
+        "funky",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/Funkolius_Impetus_Frame.txt",
+      "hash": "61ddac670d6cf7ddf672c10c1ef3bc533e1d90265ac0d7fa5656730b02be86b3",
+      "title": "Funkolius - Impetus Frame",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "impetus",
+        "micro",
+        "2 inch",
+        "frame",
         "funky",
         "Funkolius"
       ],
