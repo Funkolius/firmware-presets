@@ -65,6 +65,9 @@ set dterm_lpf1_static_hz = 78
 set dterm_lpf1_dyn_min_hz = 80
 set dterm_lpf1_dyn_max_hz = 140
 set dterm_lpf2_static_hz = 0
+# Keep disabled D-term slider state sane if the user later re-enables the slider.
+set simplified_dterm_filter = OFF
+set simplified_dterm_filter_multiplier = 100
 #$ OPTION END
 
 # -- Launch control defaults reset --
