@@ -9,11 +9,11 @@
 #$ DESCRIPTION: PID calculator and supporting material: https://homesliced3d.com/funkdafied-basher-x/
 #$ FORCE_OPTIONS_REVIEW: false
 
+# Use PID profile 0 so the defaults include resets the same profile the tune uses.
+profile 0
+
 #$ INCLUDE: presets/4.5/tune/defaults.txt
 #$ INCLUDE: presets/4.5/filters/defaults.txt
-
-# Use PID profile 0 unless the user changes after applying.
-profile 0
 
 # -- Simplified tuning baseline --
 set simplified_master_multiplier = 165

@@ -9,10 +9,10 @@
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ FORCE_OPTIONS_REVIEW: false
 
-#$ INCLUDE: presets/4.4/tune/defaults_tune_filters.txt
-
-# Use PID profile 0 unless the user changes after applying.
+# Use PID profile 0 so the defaults include resets the same profile the tune uses.
 profile 0
+
+#$ INCLUDE: presets/4.4/tune/defaults_tune_filters.txt
 
 # -- Simplified tuning baseline --
 set simplified_master_multiplier = 135
