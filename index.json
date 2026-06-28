@@ -649,7 +649,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "e305946391bee32eb1aa03c3b1475a10979bc0e9a6087ae7d242dafa01599436",
+      "hash": "a68a032f6f239a188ccc7d222d6208614417a417ade8f9e7eff696e68382a6b7",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "2025.12"
@@ -691,7 +691,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "6455f41764368ace5acad8753ab7b2b3c78d3002e3c6ee89a2ec5ec4f4085a1d",
+      "hash": "8f735e065ad1d109a9690d7973d2db6ab01478629dfca12a99404d0ecd2c6444",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "2025.12"
@@ -5131,7 +5131,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "f84fc5278bd9ce59a2fafaf044e56b5285bda4c3c8bc5cff4e1b05752c3c5d95",
+      "hash": "54bf4ded2851f45a4b2127dc95428b95d80e392d66f348f31e7aec773610d755",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "4.4"
@@ -7532,7 +7532,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "591cb169058e58f94ab5d66cd3a521a7226a56c5a502e6776f44cc7fd26d8822",
+      "hash": "044bed3598bf420730b6657842f121ee9da94ff4f75d272c02a391466f57abcd",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "4.5"
@@ -7573,7 +7573,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_Tune_The_Omerta_Frame.txt",
-      "hash": "03e2bd43ea3398c9f25b6971558f0fbe5cd9519cbd24fd87e1db5b321739976f",
+      "hash": "1fc5478385c7fe17b34e5fcd214ef80d4b869ce9c8660c0068bbba84b568c998",
       "title": "Funkolius - The Omerta Frame",
       "firmware_version": [
         "4.5"

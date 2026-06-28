@@ -23,7 +23,7 @@ set simplified_feedforward_gain = 60
 set simplified_pi_gain = 155
 set simplified_pitch_pi_gain = 105
 set simplified_dterm_filter = OFF
-set simplified_dterm_filter_multiplier = 10
+set simplified_dterm_filter_multiplier = 0
 
 simplified_tuning apply
 
