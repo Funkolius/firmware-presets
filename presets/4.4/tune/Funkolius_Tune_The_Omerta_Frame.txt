@@ -66,6 +66,13 @@ set dterm_lpf1_dyn_max_hz = 140
 set dterm_lpf2_static_hz = 0
 #$ OPTION END
 
+# -- Launch control defaults reset --
+set launch_control_mode = NORMAL
+set launch_trigger_allow_reset = ON
+set launch_trigger_throttle_percent = 20
+set launch_angle_limit = 0
+set launch_control_gain = 40
+
 # -- Launch control (optional) --
 #$ OPTION BEGIN (UNCHECKED): LAUNCH CONTROL (PITCHONLY)
 set launch_control_mode = PITCHONLY
