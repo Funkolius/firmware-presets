@@ -16,14 +16,13 @@ profile 0
 #$ INCLUDE: presets/4.5/filters/defaults.txt
 
 # -- Simplified tuning baseline --
-set simplified_master_multiplier = 130
+set simplified_master_multiplier = 120
 set simplified_i_gain = 75
 set simplified_d_gain = 120
 set simplified_pi_gain = 70
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 60
 set simplified_pitch_d_gain = 110
-set simplified_pitch_pi_gain = 105
 set simplified_dterm_filter = OFF
 set simplified_dterm_filter_multiplier = 100
 
@@ -34,29 +33,29 @@ set iterm_rotation = ON
 set iterm_relax = RPY
 set iterm_relax_type = GYRO
 set iterm_relax_cutoff = 13
-set p_pitch = 44
-set i_pitch = 60
-set d_pitch = 58
-set f_pitch = 102
-set p_roll = 40
-set i_roll = 54
-set d_roll = 46
-set f_roll = 93
-set p_yaw = 40
-set i_yaw = 54
-set f_yaw = 93
-set d_min_roll = 46
-set d_min_pitch = 58
+set p_pitch = 39
+set i_pitch = 52
+set d_pitch = 53
+set f_pitch = 89
+set p_roll = 37
+set i_roll = 50
+set d_roll = 43
+set f_roll = 86
+set p_yaw = 37
+set i_yaw = 50
+set f_yaw = 86
+set d_min_roll = 43
+set d_min_pitch = 53
 set d_max_gain = 35
 set d_max_advance = 55
 
 # -- Filters --
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
 set gyro_lpf1_static_hz = 0
-set gyro_lpf2_static_hz = 1000
+set gyro_lpf2_static_hz = 700
 set dyn_notch_count = 1
-set dyn_notch_q = 1000
-set dyn_notch_min_hz = 150
+set dyn_notch_q = 750
+set dyn_notch_min_hz = 115
 set gyro_lpf1_dyn_min_hz = 0
 set simplified_gyro_filter = OFF
 
@@ -80,8 +79,8 @@ set launch_control_gain = 40
 #$ OPTION BEGIN (UNCHECKED): LAUNCH CONTROL (PITCHONLY)
 set launch_control_mode = PITCHONLY
 set launch_trigger_throttle_percent = 35
-set launch_angle_limit = 65
-set launch_control_gain = 100
+set launch_angle_limit = 80
+set launch_control_gain = 40
 #$ OPTION END
 
 # -- Other Requirements --
