@@ -135,6 +135,7 @@
   "uniqueValues": {
     "firmware_version": [
       "2025.12",
+      "2026.6",
       "3.5",
       "4.2",
       "4.3",
@@ -223,9 +224,12 @@
       "166Hz",
       "1ms",
       "1S",
+      "2 in",
       "2 inch",
+      "2.2 inch prop",
       "2.5in",
       "2.5W",
+      "2\"",
       "20",
       "2022",
       "2023",
@@ -421,6 +425,7 @@
       "immersion",
       "immersionRC",
       "impetus",
+      "impetus 2",
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
@@ -729,6 +734,51 @@
         "quad mafia",
         "frame",
         "funky",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2026.6/tune/defaults.txt",
+      "hash": "4ed724ca3029ec7d965b991260a66e4b522fd9936130bd528db9c3d442aed398",
+      "title": "Betaflight 2026.6 TUNE defaults",
+      "firmware_version": [
+        "2026.6"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2026.6/tune/Funkolius_Impetus_Frame.txt",
+      "hash": "4442ac3b0c03b89a023bfc293a4ec502e07455ad19e27ee4d59ec08e9dbdbf15",
+      "title": "Funkolius - Impetus 2 Frame",
+      "firmware_version": [
+        "2026.6"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "impetus 2",
+        "impetus",
+        "micro",
+        "2 inch",
+        "2 in",
+        "2\"",
+        "2.2 inch prop",
+        "frame",
         "Funkolius"
       ],
       "author": "Funkolius",
