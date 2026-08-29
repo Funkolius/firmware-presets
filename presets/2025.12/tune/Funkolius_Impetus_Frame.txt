@@ -5,7 +5,6 @@
 #$ KEYWORDS: freestyle, impetus, micro, 2 inch, frame, funky, Funkolius
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
-#$ DESCRIPTION: <img src="https://raw.githubusercontent.com/Funkolius/firmware-presets/master/assets/funkolius-productions-preset-logo.png" alt="Funkolius Productions" width="300px" style="display: block; margin-left: auto; margin-right: auto;"/>
 #$ DESCRIPTION: Tune for the Impetus frame by Funkolius.
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ FORCE_OPTIONS_REVIEW: false
