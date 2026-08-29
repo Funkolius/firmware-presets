@@ -5,6 +5,7 @@
 #$ KEYWORDS: freestyle, impetus 2, impetus, micro, 2 inch, 2 in, 2", 2.2 inch prop, frame, Funkolius
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
+#$ DESCRIPTION: <img src="https://raw.githubusercontent.com/Funkolius/firmware-presets/master/assets/funkolius-productions-preset-logo.png" alt="Funkolius Productions" width="160px" style="display: block; margin-left: auto; margin-right: auto;"/>
 #$ DESCRIPTION: Tune for the Impetus 2 frame by Funkolius.
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ DESCRIPTION: Back up your current configuration before applying this preset, then test carefully and check motor temperatures.
