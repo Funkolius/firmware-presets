@@ -2,60 +2,59 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: freestyle, motus, 4sx, frame, funky, Funkolius
+#$ KEYWORDS: freestyle, motus, 4sx, frame, funky, Funkolius, 4 inch
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
-#$ DESCRIPTION: Tune for MOTUS 4SX by Funkolius Productions (4-inch prop, 3-inch pitch, 500g AUW, 6S).
-#$ DESCRIPTION: Bidirectional DShot is required. BlueJay firmware should be installed for bidirectional DShot.
+#$ DESCRIPTION: Tune for MOTUS 4SX by Funkolius Productions (4-inch prop, 3-inch pitch, 570g AUW, 6S).
+#$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
+#$ DESCRIPTION: Back up your current configuration before applying this preset, then test carefully and check motor temperatures.
 #$ FORCE_OPTIONS_REVIEW: false
 
 # Use PID profile 0 so the defaults include resets the same profile the tune uses.
 profile 0
 
 #$ INCLUDE: presets/4.5/tune/defaults.txt
-#$ INCLUDE: presets/4.5/filters/defaults.txt
 
-# -- Tune --
-set iterm_relax_cutoff = 10
-set throttle_boost = 3
-set p_pitch = 79
-set i_pitch = 141
-set d_pitch = 60
-set f_pitch = 126
-set p_roll = 60
-set i_roll = 108
-set d_roll = 42
-set f_roll = 97
-set p_yaw = 60
-set i_yaw = 108
-set f_yaw = 97
-set d_min_roll = 42
-set d_min_pitch = 60
-
-set simplified_master_multiplier = 135
-set simplified_d_gain = 105
+# -- Simplified tuning baseline --
+# Calibrated to the tested MOTUS 2006 configuration:
+# 2006 2750KV, 570 g AUW, 6S, 4x3x3 prop, BlueJay, no motor output limit.
+set simplified_master_multiplier = 105
+set simplified_d_gain = 120
+set simplified_pi_gain = 95
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 60
 set simplified_pitch_d_gain = 125
 set simplified_pitch_pi_gain = 125
 set simplified_dterm_filter = OFF
+set simplified_dterm_filter_multiplier = 100
 
-set dshot_bidir = ON
+simplified_tuning apply
+
+# -- PID tuning --
+set iterm_relax_cutoff = 10
+set throttle_boost = 3
+set angle_p_gain = 45
+set feedforward_jitter_factor = 8
 
 # -- Filters --
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
-set gyro_lpf1_static_hz = 0
-set gyro_lpf2_static_hz = 1000
-set dyn_notch_count = 1
-set dyn_notch_q = 1000
-set dyn_notch_min_hz = 115
-set gyro_lpf1_dyn_min_hz = 0
+    #$ INCLUDE: presets/4.5/filters/defaults.txt
+    set simplified_gyro_filter = OFF
+    set gyro_lpf1_static_hz = 0
+    set gyro_lpf2_static_hz = 1000
+    set dyn_notch_count = 1
+    set dyn_notch_q = 1000
+    set dyn_notch_min_hz = 115
+    set gyro_lpf1_dyn_min_hz = 0
+    set gyro_lpf1_dyn_max_hz = 0
 
-set rpm_filter_weights = 100,50,50
-set rpm_filter_min_hz = 115
-set simplified_gyro_filter = OFF
+    set rpm_filter_weights = 100,50,50
+    set rpm_filter_min_hz = 115
 
-set dterm_lpf1_dyn_min_hz = 85
-set dterm_lpf1_type = BIQUAD
-set dterm_lpf2_static_hz = 0
+    set dterm_lpf1_dyn_min_hz = 85
+    set dterm_lpf1_type = BIQUAD
+    set dterm_lpf2_static_hz = 0
 #$ OPTION END
+
+# -- Other Requirements --
+set dshot_bidir = ON

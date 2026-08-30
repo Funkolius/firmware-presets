@@ -7649,7 +7649,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_MOTUS_4SX_Frame.txt",
-      "hash": "33cafd6982ffc92f6249ade698538e0d4da5bf4b012c0806c0dc1d49a09260b4",
+      "hash": "adcd4305f0ada9982ad71b98bf5add33bf75bc3487dd73d66536682c4c686d2c",
       "title": "Funkolius - MOTUS 4SX Frame",
       "firmware_version": [
         "4.5"
@@ -7662,7 +7662,8 @@
         "4sx",
         "frame",
         "funky",
-        "Funkolius"
+        "Funkolius",
+        "4 inch"
       ],
       "author": "Funkolius",
       "force_options_review": false,
