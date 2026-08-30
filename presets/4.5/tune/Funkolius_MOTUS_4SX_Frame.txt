@@ -14,6 +14,7 @@
 profile 0
 
 #$ INCLUDE: presets/4.5/tune/defaults.txt
+#$ INCLUDE: presets/4.5/filters/defaults.txt
 
 # -- Simplified tuning baseline --
 # Calibrated to the tested MOTUS 2006 configuration:
@@ -38,7 +39,6 @@ set feedforward_jitter_factor = 8
 
 # -- Filters --
 #$ OPTION BEGIN (CHECKED): FILTERS RECOMMENDED FOR CLEAN BUILD
-    #$ INCLUDE: presets/4.5/filters/defaults.txt
     set simplified_gyro_filter = OFF
     set gyro_lpf1_static_hz = 0
     set gyro_lpf2_static_hz = 1000
