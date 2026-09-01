@@ -6,7 +6,9 @@
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
 #$ DESCRIPTION: <img src="https://raw.githubusercontent.com/Funkolius/firmware-presets/master/assets/funkolius-productions-preset-logo.png" alt="Funkolius Productions" width="160px" style="display: block; margin-left: auto; margin-right: auto;"/>
-#$ DESCRIPTION: Basher X is a Funkolius design. This open-source tune is remixed from a Recopter base tune.
+#$ DESCRIPTION: The Basher is an open-source project. Original design credited to Recopter.
+#$ DESCRIPTION: This is Funkolius Productions' remix, called the Basher X.
+#$ DESCRIPTION: True X frame: 16 mm longer (10 mm front, 6 mm rear), with two rear standoffs and tweaks to the bottom plate, arms, pinch plate, and mid plate.
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ DESCRIPTION: PID calculator and supporting material: https://homesliced3d.com/funkdafied-basher-x/
 #$ FORCE_OPTIONS_REVIEW: false
