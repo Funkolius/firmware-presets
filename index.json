@@ -699,7 +699,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_MOTUS_4SX_Frame.txt",
-      "hash": "9e2d4ec985e3dab8d11839ba20144558209ec99250a253fc26d1744c525dece9",
+      "hash": "3866230fe6f86887114c726c76e0a9f4995d04b03dc59824950eca4de192622e",
       "title": "Funkolius - MOTUS 4SX Frame",
       "firmware_version": [
         "2025.12"
@@ -780,6 +780,28 @@
         "2.2 inch prop",
         "frame",
         "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2026.6/tune/Funkolius_MOTUS_4SX_Frame.txt",
+      "hash": "be373a9e8e0a68391bc071a82de2c26c486733249aaeaaa602650464b838ff69",
+      "title": "Funkolius - MOTUS 4SX Frame",
+      "firmware_version": [
+        "2026.6"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "motus",
+        "4sx",
+        "frame",
+        "funky",
+        "Funkolius",
+        "4 inch"
       ],
       "author": "Funkolius",
       "force_options_review": false,
@@ -2995,6 +3017,28 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.3/tune/Funkolius_MOTUS_4SX_Frame.txt",
+      "hash": "05ad35d885934affd8c1f7107e0816ffef80ef6c83b3cae57911cc17769f9f9a",
+      "title": "Funkolius - MOTUS 4SX Frame",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "motus",
+        "4sx",
+        "frame",
+        "funky",
+        "Funkolius",
+        "4 inch"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/karate_freestyle_5_inch.txt",
       "hash": "93602c5a24a653093e3ef37d10554d3138acb4da4de60ecabbe2ad0640f72831",
       "title": "Freestyle 5\" Karate Style",
@@ -5202,6 +5246,28 @@
         "5\""
       ],
       "author": "Ivan Efimov (Limon)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/Funkolius_MOTUS_4SX_Frame.txt",
+      "hash": "555e54bff5539f87dea2bf1fc212fc1778053a375c364fbddaf86dbae0273435",
+      "title": "Funkolius - MOTUS 4SX Frame",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "motus",
+        "4sx",
+        "frame",
+        "funky",
+        "Funkolius",
+        "4 inch"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
       "priority": 1000000000000
     },
     {
@@ -7649,7 +7715,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_MOTUS_4SX_Frame.txt",
-      "hash": "c6bf0c82d7675c727587329cbd9ef0d534ebc90371cd176c0bcfc5e253ac1b54",
+      "hash": "c9a805834eb14a64d35140a202eaaf25db501955cdbf708267f9d1ea79bf9e21",
       "title": "Funkolius - MOTUS 4SX Frame",
       "firmware_version": [
         "4.5"

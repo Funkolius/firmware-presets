@@ -1,5 +1,5 @@
 #$ TITLE: Funkolius - MOTUS 4SX Frame
-#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: freestyle, motus, 4sx, frame, funky, Funkolius, 4 inch
@@ -14,8 +14,7 @@
 # Use PID profile 0 so the defaults include resets the same profile the tune uses.
 profile 0
 
-#$ INCLUDE: presets/4.5/tune/defaults.txt
-#$ INCLUDE: presets/4.5/filters/defaults.txt
+#$ INCLUDE: presets/4.4/tune/defaults_tune_filters.txt
 
 # -- Simplified tuning baseline --
 # Calibrated to the tested MOTUS configuration:
@@ -45,7 +44,6 @@ set f_roll = 89
 set p_yaw = 53
 set i_yaw = 75
 set f_yaw = 89
-set angle_p_gain = 45
 set d_min_roll = 43
 set d_min_pitch = 56
 set anti_gravity_gain = 100
@@ -65,7 +63,6 @@ set feedforward_jitter_factor = 8
     set gyro_lpf1_dyn_min_hz = 0
     set gyro_lpf1_dyn_max_hz = 0
 
-    set rpm_filter_weights = 100,80,80
     set rpm_filter_min_hz = 110
     set simplified_gyro_filter = OFF
 
