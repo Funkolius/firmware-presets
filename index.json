@@ -224,12 +224,8 @@
       "166Hz",
       "1ms",
       "1S",
-      "2 in",
-      "2 inch",
-      "2.2 inch prop",
       "2.5in",
       "2.5W",
-      "2\"",
       "20",
       "2022",
       "2023",
@@ -424,8 +420,6 @@
       "IllusionFpv",
       "immersion",
       "immersionRC",
-      "impetus",
-      "impetus 2",
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
@@ -455,7 +449,6 @@
       "mck",
       "meteor",
       "MGP",
-      "micro",
       "MinChan",
       "MM",
       "mode",
@@ -676,28 +669,6 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/2025.12/tune/Funkolius_Impetus_Frame.txt",
-      "hash": "1ef055b3e41ec99e9ee83177643c3ae1791aa88a55b80925a508bd90ffd3a031",
-      "title": "Funkolius - Impetus Frame",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "freestyle",
-        "impetus",
-        "micro",
-        "2 inch",
-        "frame",
-        "funky",
-        "Funkolius"
-      ],
-      "author": "Funkolius",
-      "force_options_review": false,
-      "priority": 1000000000000
-    },
-    {
       "fullPath": "presets/2025.12/tune/Funkolius_MOTUS_4SX_Frame.txt",
       "hash": "3866230fe6f86887114c726c76e0a9f4995d04b03dc59824950eca4de192622e",
       "title": "Funkolius - MOTUS 4SX Frame",
@@ -759,31 +730,6 @@
       ],
       "author": "Betaflight",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/2026.6/tune/Funkolius_Impetus_Frame.txt",
-      "hash": "c37e27af3cb3c1e7b6e4511e8bf03acde7ec1ee90be11983b0e6e7d3e9047d9e",
-      "title": "Funkolius - Impetus 2 Frame",
-      "firmware_version": [
-        "2026.6"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "freestyle",
-        "impetus 2",
-        "impetus",
-        "micro",
-        "2 inch",
-        "2 in",
-        "2\"",
-        "2.2 inch prop",
-        "frame",
-        "Funkolius"
-      ],
-      "author": "Funkolius",
-      "force_options_review": false,
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/2026.6/tune/Funkolius_MOTUS_4SX_Frame.txt",
@@ -7684,28 +7630,6 @@
         "freestyle",
         "basher",
         "x-frame",
-        "funky",
-        "Funkolius"
-      ],
-      "author": "Funkolius",
-      "force_options_review": false,
-      "priority": 1000000000000
-    },
-    {
-      "fullPath": "presets/4.5/tune/Funkolius_Impetus_Frame.txt",
-      "hash": "63b7d54f5bc78f31270cd7c0a2258f1bdbabff9b46ec90eef72134114c7e5f23",
-      "title": "Funkolius - Impetus Frame",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "freestyle",
-        "impetus",
-        "micro",
-        "2 inch",
-        "frame",
         "funky",
         "Funkolius"
       ],
