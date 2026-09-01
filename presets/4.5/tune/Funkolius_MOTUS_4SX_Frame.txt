@@ -5,6 +5,7 @@
 #$ KEYWORDS: freestyle, motus, 4sx, frame, funky, Funkolius, 4 inch
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
+#$ DESCRIPTION: <img src="https://raw.githubusercontent.com/Funkolius/firmware-presets/master/assets/funkolius-productions-preset-logo.png" alt="Funkolius Productions" width="160px" style="display: block; margin-left: auto; margin-right: auto;"/>
 #$ DESCRIPTION: Tune for MOTUS 4SX by Funkolius Productions (4-inch prop, 3-inch pitch, 160g AUW, 6S).
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ DESCRIPTION: Back up your current configuration before applying this preset, then test carefully and check motor temperatures.

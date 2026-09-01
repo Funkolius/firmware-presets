@@ -5,6 +5,7 @@
 #$ KEYWORDS: freestyle, basher, x-frame, funky, Funkolius
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
+#$ DESCRIPTION: <img src="https://raw.githubusercontent.com/Funkolius/firmware-presets/master/assets/funkolius-productions-preset-logo.png" alt="Funkolius Productions" width="160px" style="display: block; margin-left: auto; margin-right: auto;"/>
 #$ DESCRIPTION: Bidirectional DShot is required. Make sure your ESCs are 32-bit or flashed with BlueJay for 8-bit.
 #$ DESCRIPTION: PID calculator and supporting material: https://homesliced3d.com/funkdafied-basher-x/
 #$ FORCE_OPTIONS_REVIEW: false
