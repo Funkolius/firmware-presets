@@ -650,7 +650,7 @@
     },
     {
       "fullPath": "presets/2025.12/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "47cef29fe900b74983236a6edcd8d1d6f2663720a58616f44ce482c299eba692",
+      "hash": "dc678d048822bf0b11ad1f181a94c8732799be56683f841223475b61407acdc1",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "2025.12"
@@ -733,7 +733,7 @@
     },
     {
       "fullPath": "presets/2026.6/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "c76d71a06b553179c64294e5b05f10709e2aa91bda2db97c5a13fbf3c00a2c66",
+      "hash": "5a5700f41171a18ae7e35983d19441bc29cad42e8508afa2b5240249cb4f4dda",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "2026.6"
@@ -5216,7 +5216,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "19e87f06702106e8b76e7b1a0c4724e50541d5cc6e3ad6297dd2db7c1f4ae6a5",
+      "hash": "4f3fb58c4aea2fbd0e2609b730be0beefd53bd6fbb8bb12f1bd7b76178f8441f",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "4.4"
@@ -7659,7 +7659,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Funkolius_Basher_X_Frame.txt",
-      "hash": "dcb60d43fbfc4973263b433359b2a521a6be3f2e7a907823cd95f91e4a50232c",
+      "hash": "21573c8e1157e3e16418ac9b390767fdc7566e1295a7a7318bdbc774a600333c",
       "title": "Funkolius - Basher X Frame",
       "firmware_version": [
         "4.5"
