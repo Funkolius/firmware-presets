@@ -1,7 +1,7 @@
 #$ TITLE: Funkolius - Impetus 2 Frame
 #$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: TUNE
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: freestyle, impetus 2, impetus, micro, 2 inch, 2 in, 2", 2.2 inch prop, frame, Funkolius
 #$ AUTHOR: Funkolius
 #$ PARSER: MARKED
